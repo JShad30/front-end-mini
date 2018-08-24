@@ -8,7 +8,6 @@ header {
     margin-left: 50px;
 }
 
-
 /*Picture*/
 .logo {
     background: url("../images/webDesign.jpg");
@@ -35,7 +34,28 @@ header {
     background-color: #fafafa;
 }
 
+.bg-color-conferences {
+    background-color: #C71C03;
+}
+
 .ul-menu-color-home {
+    background-color: #676767;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.35s;
+}
+
+.ul-menu-color-home:hover {
+    transition-property: background-color;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.35s;
+    background-color: #ff9933;
+}
+
+.home-selected {
+    background-color: #ff9933;
+}
+
+.home-color-bar {
     background-color: #ff9933;
 }
     /*transition-duration: 0.5s;
@@ -50,14 +70,57 @@ header {
 }*/
 
 .ul-menu-color-resume {
+    background-color: #676767;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.35s;
+}
+
+.ul-menu-color-resume:hover {
+    transition-property: background-color;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.35s;
+    background-color: #cc33ff;
+}
+
+.resume-selected {
+    background-color: #cc33ff;
+}
+
+.resume-color-bar {
     background-color: #cc33ff;
 }
 
 .ul-menu-color-contact {
+    background-color: #676767 ;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.35s;
+}
+
+.ul-menu-color-contact:hover {
+    transition-property: background-color;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.35s;
+    background-color: #29a6f4;
+}
+
+.contact-selected {
+    background-color: #29a6f4;
+}
+
+.contact-color-bar {
     background-color: #29a6f4;
 }
 
 .ul-menu-color-download {
+    background-color: #676767;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.35s;
+}
+
+.ul-menu-color-download:hover {
+    transition-property: background-color;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.35s;
     background-color: #b3cccc;
 }
 
@@ -71,6 +134,48 @@ header {
 
 .bg-color-contact {
     background-color: #ffffff;
+}
+
+.ul-menu-color-github {
+    background-color: #676767;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.35s;
+}
+
+.ul-menu-color-github:hover {
+    transition-property: background-color;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.35s;
+    background-color: #191E4F;
+}
+
+.github-selected {
+    background-color: #191E4F;
+}
+
+.github-color-bar {
+    background-color: #191E4F;
+}
+
+.ul-menu-color-interests {
+    background-color: #676767;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.35s;
+}
+
+.ul-menu-color-interests:hover {
+    transition-property: background-color;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.35s;
+    background-color: #C71C03;
+}
+
+.interests-selected {
+    background-color: #C71C03;
+}
+
+.interests-color-bar {
+    background-color: #C71C03;
 }
 
 /*Special paddings margins text etc*/
@@ -105,15 +210,15 @@ h6 {
 /*Title block area styles*/
 
 .name {
-    font-family: 'Exo', sans-serif;
-    font-weight: 100;
+    font-family: 'Exo', 'sans-serif';
+    font-weight: 400;
     font-size: 46px;
     margin-top: 50px;
     color: #fff;
 }
 
 .header-nav {
-    min-height: 240px;
+    min-height: 235px;
 }
 
 .title {
@@ -137,6 +242,10 @@ h6 {
     height: 120px;
     text-align: center;
     padding: 0;
+}
+
+.color-bar {
+    height: 5px;
 }
 
 .menu-item a {
@@ -164,10 +273,45 @@ h6 {
     letter-spacing: 2px;
 }
 
-.hvr-sweep-to-bottom:before {
+/*Menu items in the specific selected pages*/
+
+.home-selected i {
+    padding-top: 20px;
+    display: block;
+    color: #fafafa;
+    font-size: 26px;
+}
+
+.home-selected span {
+    color: #fff;
+}
+
+.resume-selected i {
+    padding-top: 20px;
+    display: block;
+    color: #fafafa;
+    font-size: 26px;
+}
+
+.resume-selected span {
+    color: #fff;
+}
+
+.contact-selected i {
+    padding-top: 20px;
+    display: block;
+    color: #fafafa;
+    font-size: 26px;
+}
+
+.contact-selected span {
+    color: #fff;
+}
+
+/*.hvr-sweep-to-bottom:before {
     background: rgba(0, 0, 0, 0.2);
     height: 120px;
-}
+}*/
 
 /*Section Styles*/
 
@@ -185,6 +329,12 @@ h6 {
 
 .main-section-color {
     color: #676767;
+}
+
+/*Map rendering*/
+
+div #map {
+    min-height: 360px;
 }
 
 /*Footer area*/
