@@ -249,6 +249,10 @@ h6 {
 }
 
 .menu-item a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     width: 100%;
     text-decoration: none;
     color: #fff;
@@ -256,7 +260,6 @@ h6 {
 }
 
 .menu-item a i {
-    padding-top: 20px;
     display: block;
     color: #fafafa;
     font-size: 26px;
@@ -276,7 +279,6 @@ h6 {
 /*Menu items in the specific selected pages*/
 
 .home-selected i {
-    padding-top: 20px;
     display: block;
     color: #fafafa;
     font-size: 26px;
@@ -287,7 +289,6 @@ h6 {
 }
 
 .resume-selected i {
-    padding-top: 20px;
     display: block;
     color: #fafafa;
     font-size: 26px;
@@ -298,7 +299,6 @@ h6 {
 }
 
 .contact-selected i {
-    padding-top: 20px;
     display: block;
     color: #fafafa;
     font-size: 26px;
